@@ -1,2 +1,1 @@
-compiler: gcc
-./configure && make && make test
+language: c
