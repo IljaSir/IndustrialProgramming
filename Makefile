@@ -1,4 +1,4 @@
-.PHONY: all mkdir
+.PHONY: all mkdir test
 
 BUILD = $(PWD)/build
 SRC = $(PWD)/src
@@ -8,3 +8,5 @@ all:
 	gcc fissbuss/solution.c
 mkdir:
 	test -d build || mkdir build/
+test:
+	echo "kek"
