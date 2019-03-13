@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-// TTTTravis test line changed
+// Travis test line changed
 int main(int argc, char **argv)
 {
   char *line;
