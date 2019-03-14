@@ -5,8 +5,8 @@ SRC = $(PWD)/src
 
 all:
 	make mkdir
-	gcc fizzbuzz/solution.c
+	gcc fizzbuzz/solution.c fizzbuzz/test.c -o $(BUILD)/test
 mkdir:
 	test -d build || mkdir build/
 test:
-	echo "kek"
+	./$(BUILD)/test
